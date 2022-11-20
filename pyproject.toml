@@ -33,6 +33,9 @@ pytest-cov = "^3.0"
 pychcfg_prettier = "browniebroke_utils.setup_prettier:main"
 pychcfg_pywatchers = "browniebroke_utils.setup_pywatchers:main"
 
+[tool.poetry.group.dev.dependencies]
+pyfakefs = "^5.0.0"
+
 [tool.semantic_release]
 branch = "main"
 version_toml = "pyproject.toml:tool.poetry.version"
