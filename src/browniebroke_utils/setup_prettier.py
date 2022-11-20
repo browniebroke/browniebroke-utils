@@ -1,4 +1,3 @@
-import sys
 from pathlib import Path
 
 import xmltodict
@@ -10,10 +9,7 @@ PRETTIER_XML = (TEMPLATES_DIR / "prettier.xml").read_text()
 
 
 def main() -> None:
-    if len(sys.argv) == 2:
-        root_path = Path(sys.argv[1])
-    else:
-        root_path = Path.cwd()
+    root_path = Path.cwd()
 
     idea_path = root_path / ".idea"
     workspace_path = idea_path / "workspace.xml"
