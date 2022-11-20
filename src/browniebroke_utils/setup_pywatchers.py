@@ -10,7 +10,3 @@ def main() -> None:
     idea_path = root_path / ".idea"
     watcher_tasks = idea_path / "watcherTasks.xml"
     watcher_tasks.write_text(WATCHER_TASKS_XML)
-
-
-if __name__ == "__main__":
-    main()

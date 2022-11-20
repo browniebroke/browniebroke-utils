@@ -30,7 +30,3 @@ def update_workspace_xml(workspace_xml: str) -> str:
             to_add = [prop for prop in needed if prop not in properties]
             properties.extend(to_add)
     return xmltodict.unparse(workspace_dict, pretty=True)
-
-
-if __name__ == "__main__":
-    main()
