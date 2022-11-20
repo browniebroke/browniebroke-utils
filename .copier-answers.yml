@@ -1,8 +1,8 @@
 # Changes here will be overwritten by Copier
-_commit: '0514425'
+_commit: "0514425"
 _src_path: /Users/bruno/Documents/Workspace/oss/sources/cookiecutter-pypackage
 add_me_as_contributor: true
-copyright_year: '2022'
+copyright_year: "2022"
 documentation: false
 email: alla.brunoo@gmail.com
 full_name: Bruno Alla
@@ -17,4 +17,3 @@ run_poetry_install: true
 setup_github: true
 setup_pre_commit: true
 version: 0.0.1
-
