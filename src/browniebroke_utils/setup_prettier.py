@@ -3,46 +3,10 @@ from pathlib import Path
 
 import xmltodict
 
-XML_TO_ADD = """<?xml version="1.0" encoding="UTF-8"?>
-<component>
-  <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,json,md,yml,yaml}" />
-  <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.19.0/lib/node_modules/prettier" />
-  <property name="run.prettier.on.save" value="true" />
-  <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-</component>
-"""
+TEMPLATES_DIR = Path(__file__).parent / "templates" / "prettier"
 
-PRETTIER_XML = """<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="PrettierConfiguration">
-    <option name="myRunOnSave" value="true" />
-    <option name="myFilesPattern" value="{**/*,*}.{js,ts,jsx,tsx,json,md,yaml,yml}" />
-  </component>
-</project>
-"""
-
-EXAMPLE_WORKSPACE_XML = """<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="d64979e0-13fb-4789-9268-966c79b5821e" name="Default Changelist" comment="" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="TerminalProjectNonSharedOptionsProvider">
-    <option name="shellPath" value="/bin/zsh" />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-</project>
-"""
+XML_TO_ADD = (TEMPLATES_DIR / "to_add.xml").read_text()
+PRETTIER_XML = (TEMPLATES_DIR / "prettier.xml").read_text()
 
 
 def main() -> None:

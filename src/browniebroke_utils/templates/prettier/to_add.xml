@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,json,md,yml,yaml}" />
+  <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.19.0/lib/node_modules/prettier" />
+  <property name="run.prettier.on.save" value="true" />
+  <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+</component>
