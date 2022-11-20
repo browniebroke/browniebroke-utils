@@ -23,10 +23,16 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
+xmltodict = "^0.13.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
 pytest-cov = "^3.0"
+pyfakefs = "^5.0.0"
+
+[tool.poetry.scripts]
+pych-prettier = "browniebroke_utils.setup_prettier:main"
+pych-pywatchers = "browniebroke_utils.setup_pywatchers:main"
 
 [tool.semantic_release]
 branch = "main"

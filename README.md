@@ -35,6 +35,24 @@ Install this via pip (or your favourite package manager):
 
 `pip install browniebroke-utils`
 
+## Usage
+
+This tool provides a few random scripts I use in my day to day work.
+
+### `pych-prettier`
+
+Configure [Prettier](https://prettier.io/) as file watcher in the current PyCharm project. This is done by editing the appropriate files in the `.idea` folder.
+
+### `pych-pywatchers`
+
+Setup a few Python-related linting tools as file watchers in the current PyCharm project:
+
+- Black
+- isort
+- pyupgrade
+
+This is done by editing the appropriate files in the `.idea` folder.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
