@@ -20,6 +20,8 @@ packages = [
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/browniebroke/browniebroke-utils/issues"
 "Changelog" = "https://github.com/browniebroke/browniebroke-utils/blob/main/CHANGELOG.md"
+"Twitter" = "https://twitter.com/_BrunoAlla"
+"Mastodon" = "https://fosstodon.org/@browniebroke"
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -80,3 +82,4 @@ allow_untyped_defs = true
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
