@@ -20,6 +20,8 @@ packages = [
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/browniebroke/browniebroke-utils/issues"
 "Changelog" = "https://github.com/browniebroke/browniebroke-utils/blob/main/CHANGELOG.md"
+"Twitter" = "https://twitter.com/_BrunoAlla"
+"Mastodon" = "https://fosstodon.org/@browniebroke"
 
 [tool.poetry.dependencies]
 python = "^3.7"
