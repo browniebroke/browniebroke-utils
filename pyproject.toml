@@ -30,7 +30,7 @@ xmltodict = "^0.13.0"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
 pytest-cov = "^4.0"
-pyfakefs = "^5.0.0"
+pyfakefs = {git = "https://github.com/pytest-dev/pyfakefs.git", rev = "50a27610a83e7e04166a666e33c6042e733f292a"}
 
 [tool.poetry.scripts]
 pych-prettier = "browniebroke_utils.setup_prettier:main"
