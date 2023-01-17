@@ -180,19 +180,15 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pyfakefs"
-version = "5.1.dev0"
+version = "5.1.0"
 description = "pyfakefs implements a fake file system that mocks the Python file system modules."
 category = "dev"
 optional = false
 python-versions = ">=3.7"
-files = []
-develop = false
-
-[package.source]
-type = "git"
-url = "https://github.com/pytest-dev/pyfakefs.git"
-reference = "50a27610a83e7e04166a666e33c6042e733f292a"
-resolved_reference = "50a27610a83e7e04166a666e33c6042e733f292a"
+files = [
+    {file = "pyfakefs-5.1.0-py3-none-any.whl", hash = "sha256:e6f34a8224b41f1b1ab25aa8d430121dac42e3c6e981e01eae76b3343fba47d0"},
+    {file = "pyfakefs-5.1.0.tar.gz", hash = "sha256:316c6026640d14a6b4fbde71fd9674576d1b5710deda8fabde8aad51d785dbc3"},
+]
 
 [[package]]
 name = "pyparsing"
@@ -308,4 +304,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "973d71b8d3d7b0416ced21ee09aa96d710ab1a1140a4e9309893a08ea9f3daaa"
+content-hash = "41311187a67f8a3c9eaf362bfad7591c31f35f978fa28fcda28b45305c898e75"
