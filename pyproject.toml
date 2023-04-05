@@ -30,7 +30,7 @@ xmltodict = "^0.13.0"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
 pytest-cov = "^4.0"
-pyfakefs = ">=5.1"
+pyfakefs = "^5.0.0"
 
 [tool.poetry.scripts]
 pych-prettier = "browniebroke_utils.setup_prettier:main"
