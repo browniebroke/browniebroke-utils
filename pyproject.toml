@@ -24,7 +24,7 @@ packages = [
 "Mastodon" = "https://fosstodon.org/@browniebroke"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 xmltodict = "^0.13.0"
 
 [tool.poetry.group.dev.dependencies]
