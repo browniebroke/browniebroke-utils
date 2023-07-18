@@ -38,7 +38,7 @@ pych-pywatchers = "browniebroke_utils.setup_pywatchers:main"
 
 [tool.semantic_release]
 branch = "main"
-version_toml = "pyproject.toml:tool.poetry.version"
+version_toml = ["pyproject.toml:tool.poetry.version"]
 version_variable = "src/browniebroke_utils/__init__.py:__version__"
 build_command = "pip install poetry && poetry build"
 
