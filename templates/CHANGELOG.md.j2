@@ -9,7 +9,7 @@
 
 ### {{ type_ | capitalize }}
 {% for commit in commits %}
-* {{ commit.descriptions[0] | capitalize }} ([`{{ commit.short_hash }}`]({{ commit.hexsha | commit_hash_url }}))
+- {{ commit.descriptions[0] | capitalize }} ([`{{ commit.short_hash }}`]({{ commit.hexsha | commit_hash_url }}))
 {%- endfor %}
 
 {%- endfor %}
