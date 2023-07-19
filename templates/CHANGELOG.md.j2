@@ -1,16 +1,4 @@
 # CHANGELOG
-{%- if context.history.unreleased | length > 0 %}
-{# UNRELEASED #}
-## Unreleased
-
-{%- for type_, commits in context.history.unreleased | dictsort %}
-
-### {{ type_ | capitalize }}
-{% for commit in commits %}
-* {{ commit.descriptions[0] | capitalize }} ([`{{ commit.short_hash }}`]({{ commit.hexsha | commit_hash_url }}))
-{%- endfor %}
-{%- endfor %}
-{%- endif %}
 
 {%- for version, release in context.history.released.items() %}
 {# RELEASED #}
