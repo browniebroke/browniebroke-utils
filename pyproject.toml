@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "browniebroke-utils"
-version = "1.0.0"
+version = "1.0.1"
 description = "A collections of small scripts."
 authors = ["Bruno Alla <alla.brunoo@gmail.com>"]
 license = "MIT"
