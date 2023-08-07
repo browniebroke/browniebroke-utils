@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.1.0 (2023-08-07)
+
+### Feature
+
+- Add official support for python 3.12 (#134) ([`455ff56`](https://github.com/browniebroke/browniebroke-utils/commit/455ff56795086a27093ed4c78cb585cfdafeea35))
+
 ## v1.0.1 (2023-07-19)
 
 ### Fix
