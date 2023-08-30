@@ -9,6 +9,7 @@ PRETTIER_XML = (TEMPLATES_DIR / "prettier.xml").read_text()
 
 
 def main() -> None:
+    """Command entry point."""
     root_path = Path.cwd()
 
     idea_path = root_path / ".idea"
@@ -22,6 +23,7 @@ def main() -> None:
 
 
 def update_workspace_xml(workspace_xml: str) -> str:
+    """Update the given workspace.xml content to add the config for prettier."""
     workspace_dict = xmltodict.parse(workspace_xml)
     needed = xmltodict.parse(XML_TO_ADD)["component"]["property"]
     for component in workspace_dict["project"]["component"]:
