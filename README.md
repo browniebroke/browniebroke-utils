@@ -27,6 +27,12 @@
   <img src="https://img.shields.io/pypi/l/browniebroke-utils.svg?style=flat-square" alt="License">
 </p>
 
+---
+
+**Source Code**: <a href="https://github.com/browniebroke/browniebroke-utils" target="_blank">https://github.com/browniebroke/browniebroke-utils </a>
+
+---
+
 A collections of small scripts.
 
 ## Installation
