@@ -38,7 +38,6 @@ pych-prettier = "browniebroke_utils.setup_prettier:main"
 pych-pywatchers = "browniebroke_utils.setup_pywatchers:main"
 
 [tool.semantic_release]
-branch = "main"
 version_toml = ["pyproject.toml:tool.poetry.version"]
 version_variables = [
     "src/browniebroke_utils/__init__.py:__version__",
@@ -53,6 +52,13 @@ exclude_commit_patterns = [
 
 [tool.semantic_release.changelog.environment]
 keep_trailing_newline = true
+
+[tool.semantic_release.branches.main]
+match = "main"
+
+[tool.semantic_release.branches.noop]
+match = "(?!main$)"
+prerelease = true
 
 [tool.pytest.ini_options]
 addopts = "-v -Wdefault --cov=browniebroke_utils --cov-report=term-missing:skip-covered"
