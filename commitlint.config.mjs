@@ -1,4 +1,4 @@
-const Configuration = {
+export default {
   extends: ["@commitlint/config-conventional"],
   rules: {
     "header-max-length": [0, "always", Infinity],
@@ -6,5 +6,3 @@ const Configuration = {
     "footer-max-line-length": [0, "always", Infinity],
   },
 };
-
-export default Configuration;

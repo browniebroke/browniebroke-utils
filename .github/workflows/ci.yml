@@ -16,9 +16,6 @@ jobs:
   commitlint:
     name: Lint Commit Messages
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: read
     steps:
       - uses: actions/checkout@v4
         with:
