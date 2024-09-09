@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.1.1 (2024-09-09)
+
+### Fix
+
+- Update classifiers ([`fa3f11c`](https://github.com/browniebroke/browniebroke-utils/commit/fa3f11ca1fc5077ba70e985a4e6df420a1d7309d))
+
 ## v1.1.0 (2023-08-07)
 
 ### Feature
