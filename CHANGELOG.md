@@ -1,20 +1,26 @@
 # CHANGELOG
 
+## v1.1.2 (2024-10-09)
+
+### Fixes
+
+- Update dependency xmltodict to ^0.14.0 ([`545e7aa`](https://github.com/browniebroke/browniebroke-utils/commit/545e7aaddcfd7d7cfe089ca28aee67a35156890b))
+
 ## v1.1.1 (2024-09-09)
 
-### Fix
+### Fixes
 
 - Update classifiers ([`fa3f11c`](https://github.com/browniebroke/browniebroke-utils/commit/fa3f11ca1fc5077ba70e985a4e6df420a1d7309d))
 
 ## v1.1.0 (2023-08-07)
 
-### Feature
+### Features
 
 - Add official support for python 3.12 (#134) ([`455ff56`](https://github.com/browniebroke/browniebroke-utils/commit/455ff56795086a27093ed4c78cb585cfdafeea35))
 
 ## v1.0.1 (2023-07-19)
 
-### Fix
+### Fixes
 
 - Update release phase to accommodate changes in psr v8 (#122) ([`3d0ac2b`](https://github.com/browniebroke/browniebroke-utils/commit/3d0ac2bf28aeb6842f3ecdc2b02e9e10c1ecdf1c))
 
