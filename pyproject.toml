@@ -29,7 +29,7 @@ packages = [
 "Mastodon" = "https://fosstodon.org/@browniebroke"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 xmltodict = "^0.14.0"
 
 [tool.poetry.group.dev.dependencies]
@@ -42,7 +42,7 @@ pych-prettier = "browniebroke_utils.setup_prettier:main"
 pych-pywatchers = "browniebroke_utils.setup_pywatchers:main"
 
 [tool.ruff]
-target-version = "py38"
+target-version = "py39"
 line-length = 88
 
 lint.select = [
