@@ -1,10 +1,16 @@
 # CHANGELOG
 
+## v1.2.1 (2025-08-25)
+
+### Bug fixes
+
+- Use spdx expression for license ([`b73cb77`](https://github.com/browniebroke/browniebroke-utils/commit/b73cb77de6ad1b39d032fd670fb6c8105d321618))
+
 ## v1.2.0 (2024-10-31)
 
 ### Features
 
-- Drop support for python 3.8 (#410) ([`bc4a13b`](https://github.com/browniebroke/browniebroke-utils/commit/bc4a13b4e50c7e12c1b14b312f2e7fdb59459a1b))
+- Drop support for python 3.8 ([`bc4a13b`](https://github.com/browniebroke/browniebroke-utils/commit/bc4a13b4e50c7e12c1b14b312f2e7fdb59459a1b))
 
 ## v1.1.4 (2024-10-16)
 
@@ -34,13 +40,22 @@
 
 ### Features
 
-- Add official support for python 3.12 (#134) ([`455ff56`](https://github.com/browniebroke/browniebroke-utils/commit/455ff56795086a27093ed4c78cb585cfdafeea35))
+- Add official support for python 3.12 ([`455ff56`](https://github.com/browniebroke/browniebroke-utils/commit/455ff56795086a27093ed4c78cb585cfdafeea35))
+
+### Documentation
+
+- Revert latest changelog change ([`3b3d379`](https://github.com/browniebroke/browniebroke-utils/commit/3b3d379718b4074c1d0feb4f2442b503e07cf145))
+- Preserve old changes when generating changelog ([`3b3d379`](https://github.com/browniebroke/browniebroke-utils/commit/3b3d379718b4074c1d0feb4f2442b503e07cf145))
+- Simplify changelog generation ([`3b3d379`](https://github.com/browniebroke/browniebroke-utils/commit/3b3d379718b4074c1d0feb4f2442b503e07cf145))
+- Remove unreleased section from changelog template ([`3b3d379`](https://github.com/browniebroke/browniebroke-utils/commit/3b3d379718b4074c1d0feb4f2442b503e07cf145))
+- Fix changelog style to comply with prettier ([`3b3d379`](https://github.com/browniebroke/browniebroke-utils/commit/3b3d379718b4074c1d0feb4f2442b503e07cf145))
+- Add comments to changelog template ([`3b3d379`](https://github.com/browniebroke/browniebroke-utils/commit/3b3d379718b4074c1d0feb4f2442b503e07cf145))
 
 ## v1.0.1 (2023-07-19)
 
 ### Bug fixes
 
-- Update release phase to accommodate changes in psr v8 (#122) ([`3d0ac2b`](https://github.com/browniebroke/browniebroke-utils/commit/3d0ac2bf28aeb6842f3ecdc2b02e9e10c1ecdf1c))
+- Update release phase to accommodate changes in psr v8 ([`3d0ac2b`](https://github.com/browniebroke/browniebroke-utils/commit/3d0ac2bf28aeb6842f3ecdc2b02e9e10c1ecdf1c))
 
 ## v1.0.0 (2023-06-27)
 
