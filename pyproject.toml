@@ -36,6 +36,7 @@ urls.repository = "https://github.com/browniebroke/browniebroke-utils"
 urls.Twitter = "https://twitter.com/_BrunoAlla"
 scripts.pych-prettier = "browniebroke_utils.setup_prettier:main"
 scripts.pych-pywatchers = "browniebroke_utils.setup_pywatchers:main"
+scripts.pych-ruff = "browniebroke_utils.setup_ruffwatcher:main"
 
 [dependency-groups]
 dev = [
