@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.3.0 (2025-09-14)
+
+### Features
+
+- Add command for ruff watcher ([`a790112`](https://github.com/browniebroke/browniebroke-utils/commit/a790112b92f0d91cb741739d03ff380bdc93a12c))
+
 ## v1.2.2 (2025-09-14)
 
 ### Bug fixes
