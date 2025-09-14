@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.2.2 (2025-09-14)
+
+### Bug fixes
+
+- Update dependency xmltodict to v1 ([`7fc6efd`](https://github.com/browniebroke/browniebroke-utils/commit/7fc6efdde3194a8887e22c60c2e97eaf4154afc9))
+
 ## v1.2.1 (2025-08-25)
 
 ### Bug fixes
