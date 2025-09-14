@@ -27,7 +27,7 @@ classifiers = [
 ]
 
 dependencies = [
-  "xmltodict>=0.14,<1",
+  "xmltodict>=1,<2",
 ]
 urls."Bug Tracker" = "https://github.com/browniebroke/browniebroke-utils/issues"
 urls.Changelog = "https://github.com/browniebroke/browniebroke-utils/blob/main/CHANGELOG.md"
