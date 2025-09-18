@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.4.0 (2025-09-18)
+
+### Features
+
+- Add support for python 3.14 ([`42812a3`](https://github.com/browniebroke/browniebroke-utils/commit/42812a3f053822933ce225db227ec841216cb132))
+- Drop support for python 3.9 ([`9d73423`](https://github.com/browniebroke/browniebroke-utils/commit/9d73423531a926e24fd4892166453605e368dc13))
+
 ## v1.3.0 (2025-09-14)
 
 ### Features
