@@ -111,6 +111,9 @@ exclude = [
 module = "tests.*"
 allow_untyped_defs = true
 
+[tool.pyproject-fmt]
+max_supported_python = "3.14"
+
 [tool.semantic_release]
 version_toml = [ "pyproject.toml:project.version" ]
 version_variables = [
