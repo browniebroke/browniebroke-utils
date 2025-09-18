@@ -22,6 +22,7 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
   "Topic :: Software Development :: Libraries",
 ]
 
@@ -77,6 +78,9 @@ lint.per-file-ignores."tests/**/*" = [
   "S101",
 ]
 lint.isort.known-first-party = [ "browniebroke_utils", "tests" ]
+
+[tool.pyproject-fmt]
+max_supported_python = "3.14"
 
 [tool.pytest.ini_options]
 addopts = "-v -Wdefault --cov=browniebroke_utils --cov-report=term-missing:skip-covered"
