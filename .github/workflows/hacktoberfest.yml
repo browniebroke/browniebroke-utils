@@ -1,6 +1,7 @@
 name: Hacktoberfest
 
 on:
+  workflow_dispatch:
   schedule:
     # Run every day in October
     - cron: "0 0 * 10 *"
@@ -12,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: browniebroke/hacktoberfest-labeler-action@v2
+      - uses: browniebroke/hacktoberfest-labeler-action@main
         with:
           github_token: ${{ secrets.GH_PAT }}
