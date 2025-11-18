@@ -41,7 +41,7 @@ scripts.pych-ruff = "browniebroke_utils.setup_ruffwatcher:main"
 [dependency-groups]
 dev = [
   "pyfakefs>=5,<6",
-  "pytest>=8,<9",
+  "pytest>=9,<10",
   "pytest-cov>=7,<8",
 ]
 
