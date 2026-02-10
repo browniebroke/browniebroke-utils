@@ -85,13 +85,13 @@ ini_options.addopts = "-v -Wdefault --cov=browniebroke_utils --cov-report=term-m
 ini_options.pythonpath = [ "src" ]
 
 [tool.coverage]
+run.branch = true
 report.exclude_lines = [
-  "pragma: no cover",
   "@overload",
   "if TYPE_CHECKING",
+  "pragma: no cover",
   "raise NotImplementedError",
 ]
-run.branch = true
 
 [tool.mypy]
 check_untyped_defs = true
