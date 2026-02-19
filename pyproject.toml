@@ -33,6 +33,7 @@ urls.Changelog = "https://github.com/browniebroke/browniebroke-utils/blob/main/C
 urls.Mastodon = "https://fosstodon.org/@browniebroke"
 urls.repository = "https://github.com/browniebroke/browniebroke-utils"
 urls.Twitter = "https://twitter.com/_BrunoAlla"
+scripts.linkify-gh-md = "browniebroke_utils.linkify_github_markdown:main"
 scripts.pych-prettier = "browniebroke_utils.setup_prettier:main"
 scripts.pych-pywatchers = "browniebroke_utils.setup_pywatchers:main"
 scripts.pych-ruff = "browniebroke_utils.setup_ruffwatcher:main"
