@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.5.0 (2026-02-19)
+
+### Features
+
+- Add script to linkify generated github release notes markdown ([`47f9b0d`](https://github.com/browniebroke/browniebroke-utils/commit/47f9b0dadb38623c1ec32244f007a079b516a79c))
+
 ## v1.4.0 (2025-09-18)
 
 ### Features
