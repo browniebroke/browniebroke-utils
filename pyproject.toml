@@ -84,7 +84,7 @@ max_supported_python = "3.14"
 
 [tool.pytest]
 minversion = "9.0"
-addopts = [ "-v", "-Wdefault", "--cov=browniebroke_utils", "--cov-report=term-missing:skip-covered" ]
+addopts = [ "-v", "-Wonce", "--cov=browniebroke_utils" ]
 pythonpath = [ "src" ]
 
 [tool.coverage]
