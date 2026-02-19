@@ -23,9 +23,9 @@ requires-dist = [{ name = "xmltodict", specifier = ">=1,<2" }]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pyfakefs", specifier = ">=6,<7" },
-    { name = "pytest", specifier = ">=9,<10" },
-    { name = "pytest-cov", specifier = ">=7,<8" },
+    { name = "pyfakefs", specifier = "==6.*" },
+    { name = "pytest", specifier = "==9.*" },
+    { name = "pytest-cov" },
     { name = "ty", specifier = "==0.0.*" },
 ]
 
