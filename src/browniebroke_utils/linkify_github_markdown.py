@@ -47,7 +47,7 @@ def add_github_profile_links(content: str) -> str:
     """Convert @username mentions to GitHub profile links."""
     link_ranges = get_link_ranges(content)
 
-    def replace(match: re.Match) -> str:  # type: ignore[type-arg]
+    def replace(match: re.Match) -> str:
         start, end = match.span()
         username = match.group(1)
 
@@ -68,7 +68,7 @@ def add_pull_request_links(content: str) -> str:
     """Convert pull request URLs to markdown links in format [#NNNN](url)."""
     link_ranges = get_link_ranges(content)
 
-    def replace(match: re.Match) -> str:  # type: ignore[type-arg]
+    def replace(match: re.Match) -> str:
         if any(s <= match.start() < e for s, e in link_ranges):
             return match.group(0)
         return f"[#{match.group(3)}]({match.group(0)})"

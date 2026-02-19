@@ -40,9 +40,10 @@ scripts.pych-ruff = "browniebroke_utils.setup_ruffwatcher:main"
 
 [dependency-groups]
 dev = [
-  "pyfakefs>=6,<7",
-  "pytest>=9,<10",
-  "pytest-cov>=7,<8",
+  "pyfakefs==6.*",
+  "pytest==9.*",
+  "pytest-cov",
+  "ty==0.0.*",
 ]
 
 [tool.ruff]
@@ -83,7 +84,7 @@ max_supported_python = "3.14"
 
 [tool.pytest]
 minversion = "9.0"
-addopts = [ "-v", "-Wdefault", "--cov=browniebroke_utils", "--cov-report=term-missing:skip-covered" ]
+addopts = [ "-v", "-Wonce", "--cov=browniebroke_utils" ]
 pythonpath = [ "src" ]
 
 [tool.coverage]
@@ -94,21 +95,6 @@ report.exclude_lines = [
   "pragma: no cover",
   "raise NotImplementedError",
 ]
-
-[tool.mypy]
-check_untyped_defs = true
-disallow_any_generics = true
-disallow_incomplete_defs = true
-disallow_untyped_defs = true
-mypy_path = "src/"
-no_implicit_optional = true
-show_error_codes = true
-warn_unreachable = true
-warn_unused_ignores = true
-exclude = [
-  "setup.py",
-]
-overrides = [ { module = "tests.*", allow_untyped_defs = true } ]
 
 [tool.semantic_release]
 version_toml = [ "pyproject.toml:project.version" ]
