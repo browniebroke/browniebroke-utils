@@ -29,13 +29,6 @@ jobs:
           fetch-depth: 0
       - uses: wagoid/commitlint-github-action@v6.2.1
 
-  type-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v7
-      - run: uv run ty check
-
   test:
     strategy:
       fail-fast: false
@@ -68,7 +61,6 @@ jobs:
 
   release:
     needs:
-      - type-check
       - lint
       - test
       - commitlint

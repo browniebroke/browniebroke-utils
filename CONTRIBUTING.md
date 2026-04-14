@@ -64,15 +64,10 @@ Ready to contribute? Here's how to set yourself up for local development.
 
    ```shell
    $ uv run pytest
+
    ```
 
-6. Type checking is done with [ty](https://docs.astral.sh/ty/), and is run with:
-
-   ```shell
-   uv run ty check
-   ```
-
-7. Linting is done through [prek](https://prek.j178.dev/). Provided you have the tool installed globally, you can run them all as one-off:
+6. Linting is done through [prek](https://prek.j178.dev/). Provided you have the tool installed globally, you can run them all as a one-off:
 
    ```shell
    $ prek run -a
@@ -84,7 +79,7 @@ Ready to contribute? Here's how to set yourself up for local development.
    $ prek install -f
    ```
 
-8. Commit your changes and push your branch to GitHub:
+7. Commit your changes and push your branch to GitHub:
 
    ```shell
    $ git add .
@@ -94,7 +89,7 @@ Ready to contribute? Here's how to set yourself up for local development.
 
    Note: the commit message should follow [the conventional commits](https://www.conventionalcommits.org). We run [`commitlint` on CI](https://github.com/marketplace/actions/commit-linter) to validate it, and if you've installed prek hooks at the previous step, the message will be checked at commit time.
 
-9. Submit a pull request through the GitHub website or using the GitHub CLI (if you have it installed):
+8. Submit a pull request through the GitHub website or using the GitHub CLI (if you have it installed):
 
    ```shell
    $ gh pr create --fill
