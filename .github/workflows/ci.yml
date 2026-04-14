@@ -69,6 +69,7 @@ jobs:
   release:
     needs:
       - type-check
+      - lint
       - test
       - commitlint
 
