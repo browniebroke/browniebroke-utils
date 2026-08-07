@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.6.0 (2026-08-07)
+
+### Features
+
+- Add support for python 3.15 ([`5697ed9`](https://github.com/browniebroke/browniebroke-utils/commit/5697ed94e49fafbebd5395fe4c453ccde0814c36))
+
 ## v1.5.0 (2026-02-19)
 
 ### Features
