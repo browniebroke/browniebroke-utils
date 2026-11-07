@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v2.0.0 (2026-11-07)
+
+### Features
+
+- Drop support for python 3.10 ([`6da5701`](https://github.com/browniebroke/browniebroke-utils/commit/6da57011b3e546373832103e36b1cd5da654107d))
+
 ## v1.6.0 (2026-08-07)
 
 ### Features
