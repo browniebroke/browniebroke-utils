@@ -43,7 +43,7 @@ dev = [
   "pyfakefs==6.*",
   "pytest==9.*",
   "pytest-cov",
-  "ty==0.0.105",
+  "ty==0.0.107",
 ]
 
 [tool.ruff]
